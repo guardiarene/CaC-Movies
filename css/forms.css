@@ -1,0 +1,17 @@
+body {
+    align-items: center;
+    background: url("../assets/img/background-user.jpg");
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.input-form {
+    background-color: #120f13;
+    border-radius: 10px;
+    padding: 60px;
+    width: 100%;
+}
