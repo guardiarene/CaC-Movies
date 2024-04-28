@@ -1,0 +1,42 @@
+.movie-details {
+    background: linear-gradient(to right top, #746f6fa7, #757171a7), url("https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 75px;
+}
+
+.details-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-details img {
+    border-radius: 10px;
+}
+
+.movie-trailer {
+    align-items: flex-start;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 5em auto;
+    width: 100%;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.media-links {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+}
