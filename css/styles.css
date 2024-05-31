@@ -96,6 +96,11 @@
     transform: scale(0.9);
 }
 
+.movie:hover img {
+    filter: brightness(80%) blur(20px);
+    transition: filter 0.4s ease-in-out;
+}
+
 .movie:hover .movie-title h4 {
     opacity: 1;
     width: 100%;
@@ -123,7 +128,6 @@
 
 .movie-title:hover {
     align-items: center;
-    backdrop-filter: blur(20px);
     display: flex;
     height: 100%;
     justify-content: center;
