@@ -27,15 +27,18 @@
     </header>
 
     <main>
-        <section class="form-section" data-aos="zoom-in" data-aos-duration="1000" id="login-form">
-            <form class="input-form">
+        <section class="form-section" data-aos="zoom-in" data-aos-duration="1000">
+            <form class="input-form" id="login-form">
                 <div class="text-center mb-3">
                     <h2>Iniciar Sesión</h2>
                 </div>
+                <div id="error-message" class="text-center text-danger mb-3" style="display: none;"></div>
                 <div class="form-group mt-3">
+                    <label for="email">Correo electrónico</label>
                     <input type="email" class="form-control" id="email" placeholder="Correo electrónico" required>
                 </div>
                 <div class="form-group mt-3">
+                    <label for="password">Contraseña</label>
                     <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
                 </div>
                 <div class="col text-center">
