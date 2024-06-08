@@ -16,12 +16,17 @@
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top" aria-label="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top" aria-label="Main navigation">
             <div class="container-fluid">
                 <a class="home" href="#">
                     <i class="fa-solid fa-film"></i>
                     <span>CaC - Movies</span>
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -47,7 +52,7 @@
                     <h1>Películas y series ilimitadas en un solo lugar.</h1>
                     <h2>Disfrutá donde quieras. <br> Cancelá en cualquier momento.</h2>
                     <a href="./pages/signup.html">
-                        <button class="btn btn-dark btn-lg" onclick="">Registrarse</button>
+                        <button class="btn btn-dark btn-lg">Registrarse</button>
                     </a>
                 </div>
             </div>
@@ -78,8 +83,7 @@
             data-aos-duration="1000">
             <div class="container">
                 <h3>Tendencias de hoy</h3>
-                <div class="movies" id="trending-today">
-                </div>
+                <div class="movies" id="trending-today"></div>
                 <button class="btn btn-dark mt-4 py-2" id="previous-button">Anterior</button>
                 <button class="btn btn-dark mt-4 py-2" id="next-button">Siguiente</button>
             </div>
@@ -91,8 +95,9 @@
 
         <section class="most-acclaimmed" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100"
             data-aos-duration="2000">
-            <h3 class="text-center mb-4">Las más aclamadas</h3>
-            <div class="acclaimed-movies">
+            <div class="container">
+                <h3 class="text-center mb-4">Las más aclamadas</h3>
+                <div class="acclaimed-movies"></div>
             </div>
         </section>
     </main>
